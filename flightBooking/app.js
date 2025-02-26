@@ -6,7 +6,7 @@ const port = 3000;
 
 // ใช้สำหรับการ LOGIN
 // npm install bcrypt
-const bcrypt = require('bcrypt'); // ใช้ bcrypt สำหรับเข้ารหัสรหัสผ่าน
+const bcrypt = require('bcryptjs'); // ใช้ bcrypt สำหรับเข้ารหัสรหัสผ่าน
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.json()); // ใช้ body-parser เพื่ออ่าน JSON จาก request
